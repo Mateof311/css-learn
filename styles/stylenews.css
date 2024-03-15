@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    font-family: Roboto Slab;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 20px;
+}
+.article-img{
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+.heading{
+    color: rgb(61, 170, 180);
+}
+.sub-heading{
+    color: rgb(120, 120, 120);
+}
+.article-paragraph{
+    color: rgb(90, 90, 90);
+    text-align: justify;
+}
+*{
+    border: 1px solid blue;
+}

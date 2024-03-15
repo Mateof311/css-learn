@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - Strat Hawk</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navegador">
+        <h1 class="logo">STRAT HAWK</h1>
+        <a class="navegador-item" href="index.html">Home </a>
+        <a class="navegador-item" href="singup.html">Sing up </a>
+        <a class="navegador-item" href="bookings.html">My bookings </a>
+        <a class="navegador-item" href="destinations.html">Destinations </a>
+        </div>
+        <div class="login-form-container">
+            <h2 class="heading">Login</h2>
+            <form action="index.html">
+                <!-- Otra manera de hacerlo sin los br es con una tabla de 3 donde cada input es un elemento -->
+                <div class="login-element-container">
+                    <div class="form-group">
+                        <label class="label" for="email">Email<br></label>
+                        <input class="form-input" type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="password">Password<br></label>
+                        <input class="form-input" type="password" name="password" id="password" required>
+                    </div>
+                </div>
+                <input class="btn" type="submit" value="Login">   
+            </form>
+        </div>
+    </body>
+</html>

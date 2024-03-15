@@ -1,0 +1,22 @@
+/* para seleccionar por ID se usa #id (#tituloprincipal)
+   para seleccionar con CLASS se usa .class (.parrafo)
+   para seleccionar una ETIQUETA en particular se usa etiqueta (h1)
+*/
+h1{
+    color: rgb(27, 2, 255); text-align: center;
+}
+.box{
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: darkgreen;
+    background-color: aquamarine;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
